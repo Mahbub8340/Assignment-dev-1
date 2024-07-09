@@ -1,0 +1,170 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:"Azeret Mono", monospace ;
+}
+
+/* name and button section */
+
+.name-container{
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    width: 1600px;
+    margin-top: 38px;
+    margin-bottom: 35px
+}
+.name-title{
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600px;
+    line-height: 20px;
+}
+.btn{
+    background-color:white ;
+    height: 50px;
+    width: 200px;
+    border-radius: 10px;.
+    opacity: 0.8;
+}
+/* Future Developer */
+
+.dev-future{
+    background-image: url("../assets/Hero-bg.png");
+    height: 652px;
+    width: 100%;
+}
+.dev-parent{
+    text-align: center;
+}
+.img{
+    height: 240px;
+    width: 240px;
+    margin-top: 26px;
+}
+.dev-title{
+    margin: auto;
+    width: 950px;
+    height: 130px;
+    color: rgb(13, 19, 33);
+    font-size: 42px;
+    font-weight: 800;
+    line-height:68px ;
+    text-align: center;
+    margin-top: 32px;
+}
+.dev-description{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    width: 850px;
+    margin: auto;
+    text-align: center;
+    margin-top: 24px;
+}
+
+.btn-1{
+    height: 65px;
+    width: 240px;
+    background-color: rgb(13, 19, 33);
+    border-radius: 8px;
+    margin-top: 32px;
+}
+.btn-1 a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+/* future developer part complete */
+
+.web-dev-container{
+    margin: 0 auto;
+    height: 1400px;
+    width: 1400px;
+    background-color: rgba(13, 19, 33, 0.02);
+    border-radius: 16px;
+    margin-top: 50px;
+}
+
+/* web dev content section */
+
+.wev-dev-learn{
+    padding: 80px 105px 80px 105px;
+}
+.dev-coding{
+    padding: 40px 20px;
+}
+.web-dev-learn-title{
+    margin: auto;
+    height: 37px;
+    /* width: 850px; */
+    text-align: center;
+    margin: 24px 0px;
+    color: rgb(13, 19, 33);
+    font-weight: 800;
+    line-height: 37px;
+    font-size: 32px;
+}
+.web-dev-learn-description{
+    margin: auto;
+    text-align: center;
+    height:45px;
+}
+
+.dev-coding-main{
+    margin: auto;
+    width: 1350px;
+    height: 340px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.dev-coding-title{
+    width: 500px;
+    height: 90px;
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+}
+.dev-coding-description{
+    width: 500px;
+    line-height: 30px;
+}
+.btn-container{
+    padding-top: 45px;
+    
+}
+.btn-2{
+    height: 45px;
+    width: 170px;
+    border: 1px solid rgb(13, 19, 33);
+    background-color: white;
+    opacity: 0.7;
+    border-radius: 7px;
+}
+.btn-2 a{
+    text-decoration: none;
+    color: rgb(13, 19, 33);
+}
+.image-dev{
+    padding: 45px 200px 0px 0px;
+}
+.dev-world-main{
+    margin: auto;
+    width: 1350px;
+    height: 340px;
+    background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    margin-top: 30px;
+    display: flex;
+}
+.image-world{
+    padding: 40px 100px 0px 40px;
+}
