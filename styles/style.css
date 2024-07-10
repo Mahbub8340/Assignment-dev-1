@@ -24,17 +24,19 @@ body {
 
 .name-title {
     color: rgb(13, 19, 33);
-    font-size: 20px;
+    font-size: 25px;
     font-weight: 600px;
     line-height: 20px;
 }
 
 .btn {
     background-color: white;
-    height: 50px;
+    height: 25px;
     width: 200px;
     border-radius: 10px;
-    . opacity: 0.8;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
 }
 
 /* Future Developer */
@@ -511,7 +513,7 @@ body {
 
 footer {
     margin: auto;
-    width: 1700px;
+    width: 1500px;
     background-color: rgba(13, 19, 33, 0.03);
     text-align: center;
     border-radius: 14px;
@@ -527,7 +529,7 @@ footer {
 
 .personal-infosec {
     display: flex;
-    padding-right: 123px;
+    padding-right: 25px;
 }
 
 .personal-infosec img {
@@ -535,6 +537,12 @@ footer {
 }
 
 .personal-child {
-    margin-left: 150px;
+    margin-left:50px;
 }
+.personal-child h2{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 23px;
+}
+
 /* footer section end */
