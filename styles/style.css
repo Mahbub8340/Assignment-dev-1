@@ -442,6 +442,7 @@ body {
 
 .support-container {
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.799), rgba(0, 0, 0, 0.552)), url("../assets/handshake.jpg");
+    background-position: center;
     height: 320px;
     width: 1400px;
     background-size: cover;
@@ -507,17 +508,15 @@ body {
     font-weight: 600;
 }
 
-/* footer section */
+/* footer section starts here */
 
-footer{
+footer {
     margin: auto;
-    width:1920px ;
+    width: 1920px;
     background-color: rgba(13, 19, 33, 0.03);
     text-align: center;
 }
-/* input.feedback-text {
-    outline: none;
-} */
+
 .personal-container {
     margin-top: 80px;
     height: 100px;
@@ -526,12 +525,10 @@ footer{
     justify-content: space-between;
     align-items: center;
 }
-/* .personal-container h1 {
-text-align:left;
-} */
+
+
 
 .personal-infosec {
-    /* padding: 32px 150px; */
     display: flex;
     padding-right: 235px;
 }
@@ -541,7 +538,6 @@ text-align:left;
 }
 
 .personal-child {
-    /* padding: 32px 150px; */
     margin-left: 250px;
 }
 
