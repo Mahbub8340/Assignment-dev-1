@@ -211,11 +211,13 @@ body{
 /* my current target section */
 
 .current-container{
-    height: 1437px;
+    margin: auto;
+    height: 500px;
     width: 1400px;
     background-color: #FFFFFF;
 }
 .current-title{
+    margin: 0 auto;  
     margin-top: 150px;
     text-align: center;
     color: #0D1321;
@@ -225,5 +227,166 @@ body{
     line-height: 35px;
 }
 .current-discription{
-    
+    margin: auto;
+    color: #0D1321;
+    width: 850px;
+    height: 50px;
+    opacity: 0.7;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    margin-top: 24px;
+}
+
+.skill-main-container{
+    margin-top:50px ;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.skill{
+    height: 300px;
+    width: 370px;
+    background-color: rgba(255, 76, 30, 0.05);
+    border-radius: 16px;
+}
+.skills-content{
+    padding: 40px;
+}
+.skills-title{
+    padding-top: 24px;
+    color: #0D1321;
+    height: 36px;
+    width: 300px;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    text-align: left;
+}
+
+.skills-discription{
+    width: 290px;
+    height: 50px;
+    opacity: 0.7;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding-top: 30px;
+    text-align: left;
+}
+.skills-anchor {
+    margin-top:40px;
+    width: 290px;
+    height: 20px;
+    font-size: 16px; 
+    font-weight: 700;
+    text-align: left;
+}
+.skills-anchor a{
+    color: #0D1321;
+}
+
+.skill-1{
+    height: 300px;
+    width: 370px;
+    background-color: rgba(0, 76, 232, 0.05);
+    border-radius: 16px;
+}
+
+
+.skill-2{
+    background-color: rgba(255, 223, 0, 0.05);
+    height: 300px;
+    width: 370px;
+    border-radius: 16px;
+}
+
+
+/*  my next target */
+
+.dev-next{
+    width: 1400px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.dev-next-title{
+    margin: auto;
+    width: 850px;
+    height: 40px;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    color: rgb(13, 19, 33);
+    text-align: center;
+    margin-top: 115px;
+}
+.dev-next-description{
+    margin: auto;
+    color: rgb(13, 19, 33);
+    width: 850px;
+    height: 50px;
+    opacity: 0.7;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.next-container{
+    margin: auto;
+    display: flex;
+    width: 1400px;
+    height: 220px;
+    background-color: rgb(255, 255, 255) ;
+    border:  1px solid rgba(13, 19, 33, 0.15);
+    align-items: center;
+    margin-top: 50px;
+}
+.next-img{
+    padding-left: 40px;
+    padding-top: 60px;
+}
+
+.main-contain{
+    padding-left: 50px;
+}
+.main-title{
+    height: 36px;
+    line-height: 36px;
+    font-weight: 800;
+    font-size: 24px;
+    color:rgb(13, 19, 33) ;
+    padding-top: 40px;
+}
+.main-discription{
+    width: 930px;
+    height: 52px;
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding-top:50px;
+    opacity: 0.7;
+}
+.main-anchor{
+    padding-top: 65px;
+    font-weight: 700;
+    color:rgb(13, 19, 33);
+    font-size: 16px;
+    line-height: 26px;
+}
+.main-anchor a{
+    color:rgb(13, 19, 33) ;
+}
+
+/* Support Section */
+
+.support-container{
+    background-image: url("../assets/handshake.jpg");
+    height: 320px;
+    width: 1400px;
 }
