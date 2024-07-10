@@ -17,7 +17,7 @@ body {
     display: flex;
     margin: auto;
     justify-content: space-between;
-    width: 1600px;
+    width: 1400px;
     margin-top: 38px;
     margin-bottom: 35px
 }
@@ -344,14 +344,12 @@ body {
     border-radius: 16px;
 }
 
-
 .skill-2 {
     background-color: rgba(255, 223, 0, 0.05);
     height: 300px;
     width: 370px;
     border-radius: 16px;
 }
-
 
 /*  my next target */
 
@@ -513,25 +511,23 @@ body {
 
 footer {
     margin: auto;
-    width: 1920px;
+    width: 1700px;
     background-color: rgba(13, 19, 33, 0.03);
     text-align: center;
+    border-radius: 14px;
 }
 
 .personal-container {
     margin-top: 80px;
     height: 100px;
-    border-radius: 14px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-
-
 .personal-infosec {
     display: flex;
-    padding-right: 235px;
+    padding-right: 123px;
 }
 
 .personal-infosec img {
@@ -539,9 +535,6 @@ footer {
 }
 
 .personal-child {
-    margin-left: 250px;
+    margin-left: 150px;
 }
-
-/* .personal-info {
-    padding: 32px 150px;
-} */
+/* footer section end */
